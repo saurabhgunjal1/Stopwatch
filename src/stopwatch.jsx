@@ -34,7 +34,7 @@ useEffect(()=>{
   return (
     <div>
       <h1>Stopwatch</h1>
-      <p>{formatTime(time)}</p>
+      <p>Time: {formatTime(time)}</p>
       <div className="controls">
         {isRunning ? (
           <button onClick={handlestartstop} className="btn">Stop</button>
